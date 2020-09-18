@@ -15,5 +15,8 @@
   * [Практикум 2](https://github.com/baksist/csharp-term-3/tree/master/pr-02/pr-02-02)
   * [Практикум 3](https://github.com/baksist/csharp-term-3/tree/master/pr-02/pr-02-03)
   * [Практикум 4](https://github.com/baksist/csharp-term-3/tree/master/pr-02/pr-02-04)
+* [Практика 3](https://github.com/baksist/csharp-term-3/tree/master/pr-03)
+  * [Практикум 1](https://github.com/baksist/csharp-term-3/tree/master/pr-03-01)
+  * [Практикум 2](https://github.com/baksist/csharp-term-3/tree/master/pr-03-02)
 
 На этом, кажется всё.
