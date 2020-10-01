@@ -2,7 +2,6 @@
 Название и описание репозитория говорят сами за себя – здесь будут собраны все практики, выполненные в ходе семестра. Задания выполнены в IDE JetBrains Rider с использованием фреймворка .NET Core (по возможности).
 
 Каждая практика содержит в себе несколько практикумов, каждый из которых в свою очередь представляет собой несколько упражнений. Если то или иное упражнение основано на предыдущем, то такие упражнения объединены в одно решение. 
-Задания для практик взяты из книжки "Основы разработки приложений на платформе Microsoft .NET Framework" под авторством Т. Нортропа, Ш. Уилдермьюса и Б. Райана, я пока что не уверен, стоит ли их вылкдаывать сюда – но к окончанию семестра, я, наверное, решу данный вопрос.
 
 Если то или иное задание вызвало определённые трудности (в т.ч. и технические), то в соответствующей ему директории также будет лежать README, в котором будет описано, как эти трудности решались.
 
@@ -18,11 +17,15 @@
   * [Практикум 3](https://github.com/baksist/csharp-term-3/tree/master/pr-02/pr-02-03)
   * [Практикум 4](https://github.com/baksist/csharp-term-3/tree/master/pr-02/pr-02-04)
 * [Практика 3](https://github.com/baksist/csharp-term-3/tree/master/pr-03)
-  * [Практикум 1](https://github.com/baksist/csharp-term-3/tree/master/pr-03-01)
-  * [Практикум 2](https://github.com/baksist/csharp-term-3/tree/master/pr-03-02)
+  * [Практикум 1](https://github.com/baksist/csharp-term-3/tree/master/pr-03/pr-03-01)
+  * [Практикум 2](https://github.com/baksist/csharp-term-3/tree/master/pr-03/pr-03-02)
 * [Практика 4](https://github.com/baksist/csharp-term-3/tree/master/pr-04)
   * [Практикум 1](https://github.com/baksist/csharp-term-3/tree/master/pr-04/pr-04-01)
-  * [Практикум 2](https://github.com/baksist/csharp-term-3/tree/master/pr-02/pr-04-02)
-  * [Практикум 3](https://github.com/baksist/csharp-term-3/tree/master/pr-02/pr-04-03)
-  * [Практикум 4](https://github.com/baksist/csharp-term-3/tree/master/pr-02/pr-04-04)
-  * [Практикум 5](https://github.com/baksist/csharp-term-3/tree/master/pr-02/pr-04-05)
+  * [Практикум 2](https://github.com/baksist/csharp-term-3/tree/master/pr-04/pr-04-02)
+  * [Практикум 3](https://github.com/baksist/csharp-term-3/tree/master/pr-04/pr-04-03)
+  * [Практикум 4](https://github.com/baksist/csharp-term-3/tree/master/pr-04/pr-04-04)
+  * [Практикум 5](https://github.com/baksist/csharp-term-3/tree/master/pr-04/pr-04-05)
+* [Практика 5](https://github.com/baksist/csharp-term-3/tree/master/pr-05)
+  * [Практикум 1](https://github.com/baksist/csharp-term-3/tree/master/pr-05/pr-05-01)
+  * [Практикум 2](https://github.com/baksist/csharp-term-3/tree/master/pr-05/pr-05-02)
+* [Практика 6](https://github.com/baksist/csharp-term-3/tree/master/pr-06)
