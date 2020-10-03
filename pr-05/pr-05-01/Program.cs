@@ -1,22 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System;
 using System.IO;
-using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace Serialize_People
+namespace pr_05_01
 {
-    // A simple program that accepts a name, year, month date,
-    // creates a Person object from that information, 
-    // and then displays that person's age on the console.
     class Program
     {
         static void Main(string[] args)
         {
             if (args.Length == 0)
             {
-                // If they provide no arguments, display the last person
                 Person p = Deserialize();
                 Console.WriteLine(p.ToString());
             }
@@ -52,7 +45,7 @@ namespace Serialize_People
 
         private static void Serialize(Person sp)
         {
-            FileStream fs = new FileStream("Person.Dat", FileMode.Create);
+            FileStream fs = new FileStream("Person.dat", FileMode.Create);
             BinaryFormatter bf = new BinaryFormatter();
             bf.Serialize(fs, sp);
             fs.Close();
