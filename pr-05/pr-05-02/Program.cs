@@ -54,7 +54,7 @@ namespace pr_05_02
         private static Person Deserialize()
         {
             Person dsp = new Person();
-            FileStream fs = new FileStream("Person.dat", FileMode.Open);
+            FileStream fs = new FileStream("Person.XML", FileMode.Open);
             var xs = new XmlSerializer(typeof(Person));
             dsp = (Person) xs.Deserialize(fs);
             fs.Close();
