@@ -12,40 +12,40 @@ namespace pr_01_03_01
                 Female
             };
 
-            public string firstName;
-            public string lastName;
-            public int age;
-            public Genders gender;
+            public string FirstName;
+            public string LastName;
+            public int Age;
+            public Genders Gender;
 
-            public Person(string _firstName, string _lastName, int _age, Genders _gender)
+            public Person(string firstName, string lastName, int _age, Genders gender)
             {
-                firstName = _firstName;
-                lastName = _lastName;
-                age = _age;
-                gender = _gender;
+                FirstName = firstName;
+                LastName = lastName;
+                Age = age;
+                Gender = gender;
             }
 
             public override string ToString()
             {
-                return firstName + " " + lastName + " (" + gender + "), age " + age;
+                return FirstName + " " + LastName + " (" + Gender + "), age " + Age;
             }
         }
 
         class Manager : Person
         {
-            public string phoneNumber;
-            public string officeLocation;
+            public string PhoneNumber;
+            public string OfficeLocation;
 
-            public Manager(string _firstName, string _lastName, int _age, Genders _gender, string _phoneNumber,
-                string _office_location) : base(_firstName, _lastName, _age, _gender)
+            public Manager(string firstName, string lastName, int age, Genders gender, string phoneNumber,
+                string officeLocation) : base(firstName, lastName, age, gender)
             {
-                phoneNumber = _phoneNumber;
-                officeLocation = _office_location;
+                PhoneNumber = phoneNumber;
+                OfficeLocation = officeLocation;
             }
 
             public override string ToString()
             {
-                return base.ToString() + ", " + phoneNumber + ", " + officeLocation;
+                return base.ToString() + ", " + PhoneNumber + ", " + OfficeLocation;
             }
         }
 

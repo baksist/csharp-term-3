@@ -6,18 +6,18 @@ namespace pr_01_01_01
     {
         struct Person
         {
-            public string firstName;
-            public string lastName;
-            public int age;
-            public Person(string _firstName, string _lastName, int _age)
+            public string FirstName;
+            public string LastName;
+            public int Age;
+            public Person(string firstName, string lastName, int age)
             {
-                firstName = _firstName;
-                lastName = _lastName;
-                age = _age;
+                FirstName = firstName;
+                LastName = lastName;
+                Age = age;
             }
             public override string ToString() 
             {
-                return firstName + " " + lastName + ", age " + age;
+                return FirstName + " " + LastName + ", age " + Age;
             }
         }
         static void Main(string[] args)

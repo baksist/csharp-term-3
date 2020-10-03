@@ -42,11 +42,11 @@ namespace pr_02_03_02
 
         static void Main(string[] args)
         {
-            string path_src = "/home/matt/test.txt";
-            string path_cmp = "/home/matt/test.txt.gz";
-            string path_uncmp = "/home/matt/uncmp.txt";
-            CompressFile(path_src, path_cmp);
-            UncompressFile(path_cmp, path_uncmp);
+            string sourcePath = "/home/matt/test.txt";
+            string archivePath = "/home/matt/test.txt.gz";
+            string extractPath = "/home/matt/xtrct.txt";
+            CompressFile(sourcePath, archivePath);
+            UncompressFile(archivePath, extractPath);
         }
     }
 }

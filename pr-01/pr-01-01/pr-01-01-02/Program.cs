@@ -12,21 +12,21 @@ namespace pr_01_01_02
                 Female
             };
             
-            public string firstName;
-            public string lastName;
-            public int age;
-            public Genders gender;
+            public string FirstName;
+            public string LastName;
+            public int Age;
+            public Genders Gender;
 
-            public Person(string _firstName, string _lastName, int _age, Genders _gender)
+            public Person(string firstName, string lastName, int age, Genders gender)
             {
-                firstName = _firstName;
-                lastName = _lastName;
-                age = _age;
-                gender = _gender;
+                FirstName = firstName;
+                LastName = lastName;
+                Age = age;
+                Gender = gender;
             }
             public override string ToString() 
             {
-                return firstName + " " + lastName + " (" + gender + "), age " + age;
+                return FirstName + " " + LastName + " (" + Gender + "), age " + Age;
             }
         }
         static void Main(string[] args)
