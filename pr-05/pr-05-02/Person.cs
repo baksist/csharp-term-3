@@ -8,7 +8,7 @@ namespace pr_05_02
     {
         public string Name;
         public DateTime DateOfBirth;
-        [NonSerialized] public int Age;
+        public int Age;
 
         public Person(string name, DateTime dateOfBirth)
         {

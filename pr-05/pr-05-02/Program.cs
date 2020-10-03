@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
+using System.Xml.Serialization;
 
 namespace pr_05_02
 {
@@ -45,9 +45,9 @@ namespace pr_05_02
 
         private static void Serialize(Person sp)
         {
-            FileStream fs = new FileStream("Person.dat", FileMode.Create);
-            BinaryFormatter bf = new BinaryFormatter();
-            bf.Serialize(fs, sp);
+            FileStream fs = new FileStream("Person.XML", FileMode.Create);
+            var xs = new XmlSerializer(typeof(Person));
+            xs.Serialize(fs, sp);
             fs.Close();
         }
 
@@ -55,8 +55,8 @@ namespace pr_05_02
         {
             Person dsp = new Person();
             FileStream fs = new FileStream("Person.dat", FileMode.Open);
-            BinaryFormatter bf = new BinaryFormatter();
-            dsp = (Person) bf.Deserialize(fs);
+            var xs = new XmlSerializer(typeof(Person));
+            dsp = (Person) xs.Deserialize(fs);
             fs.Close();
             return dsp;
         }
