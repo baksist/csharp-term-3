@@ -1,5 +1,4 @@
 using System;
-
 namespace pr_06
 {
     public class Person
@@ -17,9 +16,9 @@ namespace pr_06
 
         public Person()
         {
-            _name = "DefName";
-            _surname = "DefSurname";
-            _birthDate = DateTime.Now;
+            _name = "DefaultName";
+            _surname = "DefaultSurname";
+            _birthDate = DateTime.UnixEpoch;
         }
 
         public string Name
@@ -58,6 +57,5 @@ namespace pr_06
         {
             return _name + ' ' + _surname;
         }
-
     }
 }
