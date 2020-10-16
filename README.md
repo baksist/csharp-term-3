@@ -31,3 +31,8 @@
 * [Практика 6](https://github.com/baksist/csharp-term-3/tree/master/pr-06)
   * [Вариант 1](https://github.com/baksist/csharp-term-3/tree/master/pr-06/v1)
   * [Вариант 3](https://github.com/baksist/csharp-term-3/tree/master/pr-06/v3)
+* [Практика 7](https://github.com/baksist/csharp-term-3/tree/master/pr-07)
+* [Практика 8](https://github.com/baksist/csharp-term-3/tree/master/pr-08)
+  * [Практикум 1](https://github.com/baksist/csharp-term-3/tree/master/pr-08/pr-08-01)
+  * [Практикум 2](https://github.com/baksist/csharp-term-3/tree/master/pr-08/pr-08-02)
+  * [Практикум 3](https://github.com/baksist/csharp-term-3/tree/master/pr-08/pr-08-03)
