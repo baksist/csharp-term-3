@@ -20,6 +20,7 @@ namespace pr_10_02
         public Form1()
         {
             InitializeComponent();
+            button1.Enabled = false;
         }
 
         private void dvg1_Tick(object sender, EventArgs e)
